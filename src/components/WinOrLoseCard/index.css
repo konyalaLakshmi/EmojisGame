@@ -1,0 +1,64 @@
+/* Write your code here. */
+.win-lose-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  background-color: #ffffff33;
+  border: 3px solid #ffffff33;
+  padding: 16px;
+  border-radius: 24px;
+}
+.details-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+}
+.game-status {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 16px;
+}
+.current-score-label {
+  text-align: center;
+  margin: 0px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+}
+.current-score-value {
+  text-align: center;
+  margin: 0px;
+  color: #6a59ff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 29px;
+}
+.play-again-button {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+  margin: 16px;
+  padding: 16px;
+  cursor: pointer;
+  outline: none;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.image-section {
+  display: flex;
+  justify-content: center;
+}
+.win-or-lose-image {
+  height: 150px;
+  width: 200px;
+}
